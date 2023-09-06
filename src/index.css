@@ -1,0 +1,257 @@
+*,*:active {
+  outline:none;
+ }
+ ::-webkit-scrollbar {
+   width: 6px;
+   height: 5px;
+   background-color:transparent;
+ }
+ ::-webkit-scrollbar-thumb {
+   background-color: #1b76ed;
+ }
+ body {
+  padding: 0;
+  line-height: 1.5;
+  margin: 0;
+  font-family:monR, helvetica, serif;
+  width: 100%;
+  height: 100%;
+ }
+ nav {
+   width: 100%;
+   position: fixed;
+   z-index: 100;
+   height: 60px;
+   background-color:white;
+   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+   display: inline-grid;
+   align-items: center;
+ }
+ nav .links {
+  padding: 10px 30px;
+  font-size: 13px;
+  cursor: pointer;
+ }
+ 
+ /* nav .last {
+ 
+ } */
+ .centered {
+   text-align: center;
+ }
+ .right {
+   text-align: right !important;
+ }
+ .bg-color-code-2 {
+   background-color:#1b76ed;
+ }
+ .bg-color-code-2 {
+   background-color:#dce1e6;
+ }
+ .color-code-1 {
+   color:#1b76ed ;
+ }
+ .extension {
+   position: absolute;
+   display: inline-block;
+ }
+ .nav-extentions {
+   position:absolute;
+   top: 0;
+   z-index: 100;
+   width: 200px;
+   padding-bottom: 10px;
+   margin-top: 20px;
+   border-radius: 10px;
+   display:none;
+   text-align: left !important;
+   margin-left: -50px;
+   background-color:white;
+   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+ }
+ .ex-links {
+   display: inline-grid;
+   align-items: center;
+   font-size: 11px;
+   text-indent: 10px;
+   color: #555;
+   width: 100%;
+   transition: .3s ease-in;
+   height: 40px;
+ }
+ .nav-extentions .ex-links:hover {
+   background-color: #1b76ed;
+   color: white !important;
+   transition: .3s ease-in;
+ }
+ .mg-3 {
+   margin-left: 10px;
+ }
+ .mg-10 {
+   margin-left:110px;
+ }
+ .extension:hover .nav-extentions{
+   display: block;
+ }
+ .bg-color-code-1 {
+  background-color: #1b76ed;
+ }
+ .dark-scarf {
+   width: 100%;
+   height: 100%;
+  background-color:rgba(0, 0, 0, 0.6);
+ }
+ .last-child .links {
+   padding: 10px 10px !important;
+ }
+ .input {
+   width: 100%;
+   height: 40px;
+   text-indent: 20px;
+   border: solid 2px transparent !important;
+   border-radius: 10px;
+   border-top-right-radius: unset;
+   border-bottom-right-radius: unset;
+ }
+ .input:focus {
+   border:solid 2px #1b76ed !important;
+   transition: .3s ease-in-out;
+ }
+ .submit-btn {
+   display: inline-block;
+   text-align: center;
+   line-height: 45px;
+   font-size: 13px;
+   cursor: pointer;
+   color: white;
+   width: 100px;
+   /* margin-left: 10px; */
+   /* margin-top: px; */
+   border-radius: 10px;
+   height:46px;
+   border-top-left-radius: unset;
+   border-bottom-left-radius: unset;
+ }
+ 
+ .img-container {
+   width: 100%;
+   height: 40vh;
+ }
+ .my-mother{
+   width: 100%;
+   position: relative;
+   float: left;
+ }
+ .my-bottom-20 {
+   padding-bottom: 20px;
+ }
+ .btn-sm-card {
+   padding: 10px 15px;
+   box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.1);
+   border-radius:10px;
+   cursor: pointer;
+ }
+ .my-container{
+  width:96%;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+ }
+
+ .text-zed {
+  width: 500px;
+  text-align: justify;
+ }
+
+ .bg-landing {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+ .menu-icon {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    margin-left: 350px;
+    font-size: 30px;
+    height: 50vh;
+    top: 10px;
+    position: absolute;
+  }
+
+  .nav-elements {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    background-color: #ffffff;
+    width: 0px;
+    height: calc(100vh - 50px);
+    transition: all 0.3s ease-in;
+    overflow: hidden;
+  }
+
+  .nav-elements.active {
+    width: 270px;
+  }
+
+  .nav-elements span {
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+
+  .nav-elements i {
+    margin-left: 150px;
+  }
+
+  .nav-extentions {
+    position:absolute;
+    top: 0;
+    z-index: 100;
+    width: 150px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display:none;
+    text-align: left !important;
+    margin-left: 50px;
+    background-color:white;
+  }
+
+  .logo {
+    margin-left: 30px;
+    padding-bottom: 15px;
+  }
+
+  .navbar {
+    height: 50px;
+    max-width: 100%;
+    position: fixed;
+  }
+
+  .zenrentals {
+    width: 100%;
+    height: 40vh;
+  }
+
+  .text-med {
+    text-align: justify;
+    margin-right: 30px;
+  }
+
+  .shopmedical {
+    width: 250px;
+  }
+
+
+
+
+}
