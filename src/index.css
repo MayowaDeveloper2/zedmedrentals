@@ -16,6 +16,7 @@
   font-family:monR, helvetica, serif;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
  }
  nav {
    width: 100%;
@@ -80,12 +81,16 @@
    height: 40px;
  }
  .nav-extentions .ex-links:hover {
-   background-color: #1b76ed;
+   background-color: black;
    color: white !important;
    transition: .3s ease-in;
  }
  .mg-3 {
    margin-left: 10px;
+ }
+
+ .mg-4 {
+  margin-left: 30px;
  }
  .mg-10 {
    margin-left:110px;
@@ -158,6 +163,30 @@
   position: relative;
  }
 
+ .n-container {
+  width:96%;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+  border-radius: 20px;
+ }
+
+ .z-container {
+  width: 96%;
+  float: left;
+  margin-left: 2%;
+  position: relative;
+  border-color: black;
+  border: solid 1px;
+  background-color: white;
+  height: 50vh;
+ }
+
+ .pic-container {
+  width: 100px;
+  align-items: center;
+  height: 20vh;
+ }
  .text-zed {
   width: 500px;
   text-align: justify;
@@ -165,11 +194,29 @@
 
  .bg-landing {
   width: 100%;
+  background-image: url(images/zen\ rentals.jpg);
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.zenrentals {
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shopmedical {
+  width: 350px;
+  height: 50vh;
+}
+
+.dark-scarf {
+  width: 100%;
+  height: 100%;
+ background-color:rgba(0, 0, 0, 0.6);
+}
 
 
  .menu-icon {
@@ -248,7 +295,8 @@
   }
 
   .shopmedical {
-    width: 250px;
+    width: 150px;
+    height: 20vh;
   }
 
 

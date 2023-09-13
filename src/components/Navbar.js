@@ -27,35 +27,20 @@ return ( <>
           <Link to='/'>
            <span className="links">Home</span>
           </Link>
-          <Link to='/userguide'>
-           <span className="links">Complex Rehab</span>
-          </Link>
-          <Link to='research'>
+          <Link to='contact'>
            <span className="links">Contact </span>
           </Link>
-          <span className="links">Product
-            <div className="extension">
-            <i className="fas fa-angle-down mg-3"></i> 
-            <div className="nav-extentions">
-              <div className="my-col-10 off-1 down-5">
-                <div className="ex-links">Wheelchairs</div>
-                <div className="ex-links">Specialty Footwear</div>
-                <div className="ex-links">Mobility Scooters</div>
-                <div className="ex-links">Ambulatory Aids</div>
-                <div className="ex-links">Medical Devices</div>
-                <div className="ex-links">Orthopedic Bracing</div>
-                <div className="ex-links">Hospital Beds</div>
-            </div>
-            </div>
-            </div>  
-          </span>
           <span className="links">About
            <div className="extension">
            <i className="fas fa-angle-down mg-3"></i>
            <div className="nav-extentions">
             <div className="my-col-10 off-1 down-5">
-              <div className="ex-links">Who We Are</div>
-              <div className="ex-links">Our Team</div>
+              <Link to='/who-we-are'>
+               <div className="ex-links">Who We Are</div>
+              </Link>
+              <Link to='/our-team'>
+               <div className="ex-links">Our Team</div>
+              </Link>
             </div>
            </div>
            </div>

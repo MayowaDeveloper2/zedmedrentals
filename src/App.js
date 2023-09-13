@@ -5,6 +5,8 @@ import './typography.css';
 import Navbar from './components/Navbar';
 import Home from './pages/home';
 import Footer from './pages/footer';
+import Ourteam from "./pages/ourteam";
+import Whoweare from "./pages/whoweare";
 
 function App() {
   return (
@@ -12,7 +14,10 @@ function App() {
     <BrowserRouter>
      <Navbar />
       <Routes>
-        <Route path="/" exact Component={Home} />
+        <Route exact path="/" Component={Home} />
+        <Route path="/our-team" exact Component={Ourteam} />
+        <Route path="/who-we-are" exact Component={Whoweare} />
+
       </Routes>
      <Footer /> 
     </BrowserRouter>
